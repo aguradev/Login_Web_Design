@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+
+
+}
+
+.bg-image {
+    background-image: url(image/computer.jpg);
+    background-size: cover;
+    background-position: cover;
+    min-height: 100vh;
+}
+
+#agura {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    width: 300px;
+    height: 280px;
+}
+
+.box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.btn {
+    width: 100%;
+    padding: 1.3rem;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+@media(min-width:300px) {
+    .box {
+        width: 100%;
+        padding: 50px 20px;
+    }
+}
+
+@media(min-width:768px) {
+    .box {
+        width: auto;
+    }
+}
+
+@media(min-width:1200px) {
+    .box {
+        width: 55%;
+    }
+}
